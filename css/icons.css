@@ -1,0 +1,17 @@
+/* Selectores de atributos */
+
+
+/* https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors */
+
+[class^='icon-'],
+[class*=' icon-'] {
+    border: 1px solid red;
+}
+
+.icon-home {
+    background-image: url('../icons/home.svg');
+    inline-size: 24px;
+    block-size: 24px;
+    background-size: cover;
+    display: inline-block;
+}

@@ -1,3 +1,4 @@
+@import url('./icons.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
@@ -7,4 +8,8 @@
     --gray40: #181818;
     --gray50: #121212;
     --gray60: #000000;
+}
+
+body {
+    background: var(--primary);
 }
