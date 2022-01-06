@@ -1,5 +1,7 @@
 @import url('./icons.css');
 @import url('./fonts.css');
+@import url('./body.css');
+@import url('./link.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
@@ -13,30 +15,17 @@
     --headline1: bold 2rem/normal var(--basefontFamily);
     --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
     --baseFont: normal .875rem/1.375rem var(--basefontFamily);
-    --baseFontBold: bold .875rem/1.375 var(--basefontFamily);
+    --baseFontBold: bold .875rem/1.375rem var(--basefontFamily);
     --button: bold .875rem/1rem var(--basefontFamily);
     --small: normal .75em/normal var(--basefontFamily);
 }
 
 
-/* Los em varian bajo su padre directo, que se hallan definido en fuente */
+/* Los em varian bajo su padre directo, que se hallan definido en fuente 
+ Ejemplo. si una etiqueta tiene .75em , quiere decir que tomara el 75% del tamaño de su padre */
 
 
 /* Los rem son un calculo relativo, bajo una medida absoluta, que solo cambia una vez*/
 
 
 /* https://developer.mozilla.org/es/docs/Web/CSS/font */
-
-body {
-    background: var(--primary);
-    font-family: var(--basefontFamily);
-}
-
-button {
-    font-size: 40px;
-    color: green;
-}
-
-button:hover {
-    color: white;
-}
