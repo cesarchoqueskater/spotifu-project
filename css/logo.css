@@ -1,0 +1,14 @@
+/* https://www.aditus.io/aria/aria-current/ */
+
+
+/* https://www.w3.org/TR/wai-aria-practices-1.1/examples/landmarks/banner.html */
+
+.logo {
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.logo-image {
+    inline-size: 7rem;
+    block-size: 2rem;
+}
