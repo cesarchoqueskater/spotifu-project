@@ -4,6 +4,7 @@
 @import url('./link.css');
 @import url('./button-icon.css');
 @import url('./logo.css');
+@import url('./list.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
