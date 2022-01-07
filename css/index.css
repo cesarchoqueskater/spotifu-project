@@ -5,6 +5,7 @@
 @import url('./button-icon.css');
 @import url('./logo.css');
 @import url('./list.css');
+@import url('./menu.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
