@@ -4,6 +4,7 @@
 @import url('./link.css');
 @import url('./button-icon.css');
 @import url('./sidebar.css');
+@import url('./ellipsis.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
