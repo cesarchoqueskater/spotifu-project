@@ -3,9 +3,7 @@
 @import url('./body.css');
 @import url('./link.css');
 @import url('./button-icon.css');
-@import url('./logo.css');
-@import url('./list.css');
-@import url('./menu.css');
+@import url('./sidebar.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
