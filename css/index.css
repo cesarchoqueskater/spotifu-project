@@ -5,6 +5,7 @@
 @import url('./button-icon.css');
 @import url('./sidebar.css');
 @import url('./ellipsis.css');
+@import url('./slider.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
