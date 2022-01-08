@@ -36,7 +36,7 @@
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos soluta quaerat, eos consequuntur quia? Necessitatibus perspiciatis deserunt provident magni ea cum rem minus. Recusandae cupiditate impedit corporis quos quaerat?
     </p>
     <div class="playerControls">
-        <div class="playerControls-buttons">
+        <div class="playerControls-buttons" aria-label="Controles de reproduccion">
             <button class="buttonIcon" aria-label="Anterior" title="Anterior">
                 <i class="icon-prev" aria-hidden="true"></i>
             </button>
@@ -57,6 +57,18 @@
                 </div>
             </div>
             <span class="playerPlayback-progressTime">04:40</span>
+        </div>
+    </div>
+    <div class="playerVolume">
+        <button class="player-control" aria-label="Silenciar" aria-describedby="volume-icon">
+            <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volumen alto"></i>
+        </button>
+        <div class="playerVolume-slider">
+            <div class="slider">
+                <div class="slider-progress">
+                    <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="sidebar">
