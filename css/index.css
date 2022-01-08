@@ -6,6 +6,8 @@
 @import url('./sidebar.css');
 @import url('./ellipsis.css');
 @import url('./slider.css');
+@import url('./player-controls.css');
+@import url('./player-playback.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;

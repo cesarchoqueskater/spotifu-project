@@ -32,10 +32,31 @@
 </head>
 
 <body class="body">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos soluta quaerat, eos consequuntur quia? Necessitatibus perspiciatis deserunt provident magni ea cum rem minus. Recusandae cupiditate impedit corporis quos quaerat?
-    <div class="slider">
-        <div class="slider-progress">
-            <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos soluta quaerat, eos consequuntur quia? Necessitatibus perspiciatis deserunt provident magni ea cum rem minus. Recusandae cupiditate impedit corporis quos quaerat?
+    </p>
+    <div class="playerControls">
+        <div class="playerControls-buttons">
+            <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                <i class="icon-prev" aria-hidden="true"></i>
+            </button>
+            <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                <i class="icon-play" aria-hidden="true"></i>
+            </button>
+            <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                <i class="icon-next" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="playerPlayback">
+            <span class="playerPlayback-progressTime">01:40</span>
+            <div class="playerPlayback-slider">
+                <div class="slider">
+                    <div class="slider-progress">
+                        <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                    </div>
+                </div>
+            </div>
+            <span class="playerPlayback-progressTime">04:40</span>
         </div>
     </div>
     <div class="sidebar">
@@ -133,15 +154,6 @@
             </ul>
         </nav>
     </div>
-
-    <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
-        <i class="icon-play" aria-hidden="true"></i>
-    </button>
-
-    <button class="buttonIcon is-primary" aria-label="Reproducir" title="Reproducir">
-        <i class="icon-play" aria-hidden="true"></i>
-    </button>
-
 </body>
 
 </html>
