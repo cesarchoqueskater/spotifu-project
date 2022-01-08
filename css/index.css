@@ -10,6 +10,7 @@
 @import url('./player-playback.css');
 @import url('./player-volume.css');
 @import url('./player.css');
+@import url('./now-playing.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
