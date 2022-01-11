@@ -9,6 +9,7 @@
 @import url('./playlist-a.css');
 @import url('./playlist-b.css');
 @import url('./playlist-list.css');
+@import url('./search.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
