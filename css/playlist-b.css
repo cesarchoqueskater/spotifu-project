@@ -5,6 +5,8 @@
     overflow: hidden;
     background: rgba(255, 255, 255, .1);
     transition: .3s background;
+    /* El elemento que nunga se haga mas pequeño */
+    /* flex-shrink: 0; */
 }
 
 .playlistB:hover,

@@ -8,6 +8,7 @@
 @import url('./player.css');
 @import url('./playlist-a.css');
 @import url('./playlist-b.css');
+@import url('./playlist-list.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
