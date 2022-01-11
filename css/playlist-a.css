@@ -10,6 +10,8 @@
 
 .playlistA-cover img {
     vertical-align: middle;
+    inline-size: 100%;
+    block-size: auto;
 }
 
 

@@ -7,6 +7,7 @@
 @import url('./ellipsis.css');
 @import url('./player.css');
 @import url('./playlist-a.css');
+@import url('./playlist-b.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
