@@ -36,3 +36,15 @@
 
 
 /* https://developer.mozilla.org/es/docs/Web/CSS/font */
+
+@media screen and (min-width:768px) {
+     :root {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1367px) {
+     :root {
+        font-size: 18px;
+    }
+}
