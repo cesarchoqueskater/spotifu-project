@@ -25,6 +25,7 @@
 
 .search:focus-within i {
     color: var(--gray30);
+    border: none;
 }
 
 .search input::-webkit-input-placeholder {

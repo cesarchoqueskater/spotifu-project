@@ -10,6 +10,7 @@
 @import url('./playlist-b.css');
 @import url('./playlist-list.css');
 @import url('./search.css');
+@import url('./navigation.css');
 :root {
     --primary: #00B050;
     --white: #ffffff;
