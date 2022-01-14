@@ -3,11 +3,12 @@
 @import url('./navigation.css');
 @import url('./header.css');
 @import url('./sticky.css');
+@import url('./page-artist-background.css');
 .page {
     /* padding: 2rem; */
     padding-inline-start: 2em;
     padding-inline-end: 2em;
-    padding-inline-start: 2em;
+    padding-block-start: 2em
 }
 
 .page-block {

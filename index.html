@@ -38,7 +38,7 @@
                 <div class="sidebar">
                     <header class="logo">
                         <a href="/" aria-current="page">
-                            <img src="./images/spotifu-logo.png" class="logo-image " width="112" height="32" alt="Logo de Spotifu">
+                            <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
                         </a>
                     </header>
                     <nav class="menu" aria-label="Principal">
@@ -132,7 +132,7 @@
                 </div>
             </div>
             <div class="layout-main">
-                <div class="page">
+                <div class="page" style="display: none;">
                     <div class="sticky">
                         <div class="page-block">
                             <header class="header" aria-label="Barra superior y menú del usuario">
@@ -698,6 +698,41 @@
                             </div>
                         </section>
                     </main>
+                </div>
+                <div class="page">
+                    <div class="sticky">
+                        <div class="page-block">
+                            <header class="header" aria-label="Barra superior y menú del usuario">
+                                <div class="navigation">
+                                    <button class="navigation-prev" aria-label="Volver" title="Volver">
+                                        <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                    </button>
+                                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                                        <i class="icon-arrowRight" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                                <form class="search" role="search" aria-label="Buscar por Artistas, canciones o podcast">
+                                    <i class="icon-search" aria-hidden="true"></i>
+                                    <input type="search" name="" placeholder="Buscar por Artistas, canciones o podcast">
+                                </form>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="page-artist-background">
+                        <div class="artist-principal">
+                            <img class="artist-background-img" height="672" src="./images/banner-artist.png" alt="banner-artist">
+                            <div class="artist-information">
+                                <h3 class="artist-title">Selena Gomez</h3>
+                                <div class="artist-details">
+                                    <h5 class="artist-music">Pop Hits</h5>
+                                    <h4 class="artist-followers">34,139,791 SEGUIDORES</h4>
+                                </div>
+                                <button class="button btn-primary" aria-label="Reproducir Musica de Selena Gomez" title="Reproducir Musica de Selena Gomez">
+                                    Reproducir
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

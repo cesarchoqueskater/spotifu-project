@@ -2,7 +2,7 @@
 
 .menuItem a {
     display: flex;
-    font: var(--button);
+    font: var(--buttonBold);
     padding-inline-start: 1.5rem;
     padding-inline-end: 1.5rem;
     block-size: 2.5rem;

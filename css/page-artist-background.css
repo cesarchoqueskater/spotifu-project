@@ -1,0 +1,54 @@
+.page-artist-background {
+    margin-inline-start: -2em;
+    margin-inline-end: -2em;
+    position: relative;
+    top: -7.372rem;
+}
+
+.artist-principal {
+    position: relative;
+}
+
+.artist-background-img {
+    object-fit: cover;
+    inline-size: 100%;
+    block-size: 672px;
+}
+
+.artist-information {
+    display: flex;
+    width: 100%;
+    height: 317px;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    top: 62px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    color: var(--white);
+}
+
+.artist-details {
+    text-align: center;
+}
+
+.artist-title {
+    font: var(--headline1);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.artist-music {
+    font: var(--baseFont);
+    margin: 0;
+}
+
+.artist-followers {
+    font: var(--baseFont);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
