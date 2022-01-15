@@ -4,6 +4,7 @@
 @import url('./header.css');
 @import url('./sticky.css');
 @import url('./page-artist-background.css');
+@import url('./playlistList-artist.css');
 .page {
     /* padding: 2rem; */
     padding-inline-start: 2em;

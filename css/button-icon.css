@@ -18,6 +18,11 @@
     color: var(--white);
 }
 
+.buttonIcon.is-transparent {
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
 .buttonIcon .icon-play {
     position: relative;
     left: 1px;

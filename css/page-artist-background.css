@@ -12,7 +12,10 @@
 .artist-background-img {
     object-fit: cover;
     inline-size: 100%;
-    block-size: 672px;
+    block-size: 100vh;
+    top: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 .artist-information {

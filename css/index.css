@@ -27,6 +27,7 @@
     --button: normal .875rem/1rem var(--basefontFamily);
     --buttonBold: bold .875rem/1rem var(--basefontFamily);
     --small: normal .75em/normal var(--basefontFamily);
+    --subtitle: normal .75rem/normal var(var(--basefontFamily));
 }
 
 
