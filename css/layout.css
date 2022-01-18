@@ -26,6 +26,11 @@
     overflow: auto;
 }
 
+.layout-main-artist {
+    background: var(--linear-background);
+    z-index: 0;
+}
+
 .layout-bottom {
     /* Que ocupe todo el ancho que pueda */
     flex: 1;

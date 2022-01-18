@@ -28,7 +28,6 @@
     flex-direction: row;
     align-items: center;
     inline-size: 385px;
-    /* border: 1px solid red; */
     gap: 1.25rem;
 }
 
@@ -38,17 +37,14 @@
 
 .playlistList-title-size {
     inline-size: 20rem;
-    /* border: 1px solid red; */
 }
 
 .playlistList-artist-size {
     inline-size: 17rem;
-    /* border: 1px solid red; */
 }
 
 .playlistList-album-size {
     inline-size: 17rem;
-    /* border: 1px solid red; */
 }
 
 .playlistList-calendar-size {
@@ -57,7 +53,7 @@
     gap: 20px;
     justify-content: space-between;
     inline-size: 8.562rem;
-    /* border: 1px solid red; */
+    flex-shrink: 0;
 }
 
 .title-icon-calendar,
@@ -88,7 +84,7 @@
     cursor: pointer;
 }
 
-.icon-play {
+.play-song .icon-play {
     font-size: 7.13px;
     position: relative;
     top: -1px;

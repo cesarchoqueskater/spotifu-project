@@ -1,9 +1,5 @@
 @import url('./playlistList-song.css');
 .playlistList-artist {
-    /* border: 1px solid green; */
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
     margin-inline-start: 1.125rem;
     margin-inline-end: 1.125rem;
 }
@@ -13,7 +9,7 @@
     flex-direction: row;
     align-items: center;
     gap: .5rem;
-    /* border: 2px solid white; */
+    margin-block-end: 2.375rem;
 }
 
 .playlistList-search p {
@@ -27,14 +23,26 @@
     border: none;
 }
 
+.image-background {
+    position: relative;
+    inline-size: 100%;
+    block-size: 100vh;
+}
+
 .artist-background-linear {
     position: relative;
-    height: 1102px;
+    block-size: 100vh;
     background: linear-gradient( 181.17deg, rgba(47, 47, 47, 0) -35.3%, #171717 66.2%);
 }
 
 .playlistList-content {
-    position: absolute;
-    top: 371px;
     width: 100%;
+}
+
+.layout-image {}
+
+.image-page {
+    position: absolute;
+    top: 0;
+    inline-size: 100%;
 }

@@ -131,8 +131,8 @@
                     </nav>
                 </div>
             </div>
-            <div class="layout-main">
-                <div class="page" style="display: none;">
+            <div class="layout-main" style="display: none;">
+                <div class="page">
                     <div class="sticky">
                         <div class="page-block">
                             <header class="header" aria-label="Barra superior y menú del usuario">
@@ -699,415 +699,852 @@
                         </section>
                     </main>
                 </div>
-                <div class="page">
-                    <div class="sticky">
-                        <div class="page-block">
-                            <header class="header" aria-label="Barra superior y menú del usuario">
-                                <div class="navigation">
-                                    <button class="navigation-prev" aria-label="Volver" title="Volver">
-                                        <i class="icon-arrowLeft" aria-hidden="true"></i>
-                                    </button>
-                                    <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
-                                        <i class="icon-arrowRight" aria-hidden="true"></i>
-                                    </button>
-                                </div>
-                                <form class="search" role="search" aria-label="Buscar por Artistas, canciones o podcast">
-                                    <i class="icon-search" aria-hidden="true"></i>
-                                    <input type="search" name="" placeholder="Buscar por Artistas, canciones o podcast">
-                                </form>
-                            </header>
+            </div>
+            <div class="layout-main layout-main-artist">
+                <div class="layout-image">
+                    <div class="image-background">
+                        <div class="artist-background-linear">
+                            <img class="artist-background-img" src="./images/banner-artist.png" alt="banner-artist">
                         </div>
-                    </div>
-                    <div class="page-artist-background">
-                        <div class="artist-principal">
-                            <div class="iamge">
-                                <div class="artist-background-linear"></div>
-                                <img class="artist-background-img" width="1141" height="672" src="./images/banner-artist.png" alt="banner-artist">
-                            </div>
-                            <div class="artist-information">
-                                <h3 class="artist-title">Selena Gomez</h3>
-                                <div class="artist-details">
-                                    <h5 class="artist-music">Pop Hits</h5>
-                                    <h4 class="artist-followers">34,139,791 SEGUIDORES</h4>
-                                </div>
-                                <button class="button btn-primary" aria-label="Reproducir Musica de Selena Gomez" title="Reproducir Musica de Selena Gomez">
-                                    Reproducir
-                                </button>
-                            </div>
-                            <main class="page-block">
-                                <div class="playlistList-content">
-                                    <section class="playlistList-artist" aria-label="Lista de Reproduccion de Selena Gomez">
-                                        <div class="playlistList-search">
-                                            <button class="filter-list" disabled aria-label="Buscar canción" title="Buscar canción">
+                        <div class="image-page">
+                            <div class="page">
+                                <div class="sticky">
+                                    <div class="page-block">
+                                        <header class="header" aria-label="Barra superior y menú del usuario">
+                                            <div class="navigation">
+                                                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                                                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                                                </button>
+                                                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                                                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                            <form class="search" role="search" aria-label="Buscar por Artistas, canciones o podcast">
                                                 <i class="icon-search" aria-hidden="true"></i>
-                                            </button>
-                                            <p>Filtrar</p>
-                                        </div>
-                                        <div class="playlistList-song">
-                                            <div class="playlistList-header">
-                                                <div class="playlistList-action-size">
-                                                    <h3>Título</h3>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <h3>Artista</h3>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <h3>Álbum</h3>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <button class="title-icon-calendar" disabled aria-label="Fecha de Incorporación" title="Fecha de Incorporación">
-                                                        <i class="icon-calendar" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="title-icon-time" disabled aria-label="Duración de la canción" title="Duración de la canción">
-                                                        <i class="icon-clock" aria-hidden="true"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="playlistList-song-detail">
-                                                <div class="playlistList-action-size">
-                                                    <button class="play-song" aria-label="Reproducir" title="Reproducir">
-                                                        <i class="icon-play" aria-hidden="true"></i>
-                                                    </button>
-                                                    <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
-                                                        <i class="icon-heart" aria-hidden="true"></i>
-                                                    </button>
-                                                    <span>
-                                                        Grand Escape
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-artist-size">
-                                                    <span>
-                                                        RADWIMPS
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-album-size">
-                                                    <span>
-                                                        Weathing with you
-                                                    </span>
-                                                </div>
-                                                <div class="playlistList-calendar-size">
-                                                    <span>
-                                                        2021-02-10
-                                                    </span>
-                                                    <span>
-                                                        3:25
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
+                                                <input type="search" name="" placeholder="Buscar por Artistas, canciones o podcast">
+                                            </form>
+                                        </header>
+                                    </div>
                                 </div>
-                            </main>
+                                <div class="artist-information">
+                                    <h3 class="artist-title">Selena Gomez</h3>
+                                    <div class="artist-details">
+                                        <h5 class="artist-music">Pop Hits</h5>
+                                        <h4 class="artist-followers">34,139,791 SEGUIDORES</h4>
+                                    </div>
+                                    <button class="button btn-primary" aria-label="Reproducir Musica de Selena Gomez" title="Reproducir Musica de Selena Gomez">
+                                        Reproducir
+                                    </button>
+                                </div>
+                                <main class="page-block">
+                                    <div class="playlistList-content">
+                                        <section class="playlistList-artist" aria-label="Lista de Reproduccion de Selena Gomez">
+                                            <div class="playlistList-search">
+                                                <button class="filter-list" disabled aria-label="Buscar canción" title="Buscar canción">
+                                                    <i class="icon-search" aria-hidden="true"></i>
+                                                </button>
+                                                <p>Filtrar</p>
+                                            </div>
+                                            <div class="playlistList-song">
+                                                <div class="playlistList-header">
+                                                    <div class="playlistList-action-size">
+                                                        <h3>Título</h3>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <h3>Artista</h3>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <h3>Álbum</h3>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <button class="title-icon-calendar" disabled aria-label="Fecha de Incorporación" title="Fecha de Incorporación">
+                                                            <i class="icon-calendar" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="title-icon-time" disabled aria-label="Duración de la canción" title="Duración de la canción">
+                                                            <i class="icon-clock" aria-hidden="true"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="playlistList-song-detail">
+                                                    <div class="playlistList-action-size">
+                                                        <button class="play-song" aria-label="Reproducir" title="Reproducir">
+                                                            <i class="icon-play" aria-hidden="true"></i>
+                                                        </button>
+                                                        <button class="like-song" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                                                            <i class="icon-heart" aria-hidden="true"></i>
+                                                        </button>
+                                                        <span>
+                                                            Grand Escape
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-artist-size">
+                                                        <span>
+                                                            RADWIMPS
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-album-size">
+                                                        <span>
+                                                            Weathing with you
+                                                        </span>
+                                                    </div>
+                                                    <div class="playlistList-calendar-size">
+                                                        <span>
+                                                            2021-02-10
+                                                        </span>
+                                                        <span>
+                                                            3:25
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </main>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,13 +1,9 @@
-.page-artist-background {
+/* .page-artist-background {
     margin-inline-start: -2em;
     margin-inline-end: -2em;
     position: relative;
     top: -7.372rem;
-}
-
-.artist-principal {
-    position: relative;
-}
+} */
 
 .artist-background-img {
     object-fit: cover;
@@ -21,17 +17,12 @@
 .artist-information {
     display: flex;
     width: 100%;
-    height: 317px;
     gap: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
-    top: 62px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
+    margin-block-start: 5.437rem;
+    margin-block-end: 2.5rem;
     color: var(--white);
 }
 
