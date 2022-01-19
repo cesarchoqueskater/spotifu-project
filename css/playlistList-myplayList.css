@@ -1,0 +1,71 @@
+.playlistList-myplayList {
+    /* border: 1px solid red; */
+}
+
+.playlistList-myplayList-header {
+    display: flex;
+    flex-direction: row;
+    margin-block-end: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+    border-bottom: 1px solid var(--gray10);
+    padding-block-end: .75rem;
+}
+
+.playlistList-myplayList-header h3 {
+    font: var(--subtitle);
+    color: var(--gray10);
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.playlistList-myplayList-number-size {
+    inline-size: 1.87rem;
+}
+
+.playlistList-myplayList-title-size {
+    inline-size: 14.31rem;
+}
+
+.playlistList-myplayList-album-size {
+    inline-size: 21.75rem;
+}
+
+.playlistList-myplayList-date-size {
+    inline-size: 21.75rem;
+}
+
+.playlistList-myplayList-clock-size {
+    inline-size: 5rem;
+}
+
+.playlistList-myplayList-title {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+}
+
+.playlistList-myplayList-title-detail {
+    font: var(--small);
+}
+
+.playlistList-myplayList-title-detail p {
+    color: var(--white);
+    margin-block-start: 0;
+    margin-block-end: .4rem;
+}
+
+.playlistList-myplayList-title-detail small {
+    color: var(--gray10);
+}
+
+.playlistList-myplayList-song-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 1.375rem;
+    gap: 1.25rem;
+}

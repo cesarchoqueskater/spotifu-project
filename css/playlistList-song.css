@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 1.25rem;
+    border-bottom: 1px solid var(--gray10);
+    padding-block-end: .75rem;
 }
 
 .playlistList-header h3 {
@@ -23,6 +25,10 @@
     gap: 20px;
 }
 
+.playlistList-myplayList-title {
+    display: inherit;
+}
+
 .playlistList-action-size {
     display: flex;
     flex-direction: row;
@@ -33,10 +39,6 @@
 
 .playlistList-action-size h3 {
     margin-inline-start: 5.125rem;
-}
-
-.playlistList-title-size {
-    inline-size: 20rem;
 }
 
 .playlistList-artist-size {

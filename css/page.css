@@ -7,6 +7,7 @@
 @import url('./page-artist-background.css');
 @import url('./page-card-artist.css');
 @import url('./playlistList-artist.css');
+@import url('./page-card-playList.css');
 .page {
     /* padding: 2rem; */
     padding-inline-start: 2em;

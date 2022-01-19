@@ -1,0 +1,43 @@
+@import url('./playlistList-myplayList.css');
+.cardplayList-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-block-end: 1.5rem;
+}
+
+.cardimageplayList-img {
+    object-fit: cover;
+    inline-size: 14.5rem;
+    block-size: 14.5rem;
+}
+
+.cardplayList-information {
+    align-self: flex-end;
+}
+
+.cardplayList-title {
+    text-transform: uppercase;
+    font: var(--small);
+    margin-block-start: 0;
+    margin-block-end: .625rem;
+}
+
+.cardplayList-details {
+    color: var(--white);
+}
+
+.cardplayList-details p {
+    font: var(--headline1);
+    margin-block-start: 0;
+    margin-block-end: .625rem;
+}
+
+.cardplayList-details small {
+    font: var(--small);
+}
+
+.playlistList-play {
+    margin-block-start: 1.5rem;
+    margin-block-end: 1.5rem;
+}
