@@ -1,0 +1,28 @@
+.profile {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .25rem;
+    border-radius: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.profile-img {
+    inline-size: 1.75rem;
+    block-size: 1.75rem;
+    border-radius: 50%;
+    margin-inline-start: .125rem;
+}
+
+.profile-name {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font: var(--baseFont);
+    color: var(--white);
+}
+
+.buttonIcon .icon-vector {
+    font-size: .625rem;
+    color: var(--white);
+}
