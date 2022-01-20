@@ -7,6 +7,7 @@
 Crea la plataforma líder a nivel global en consumo de música bajo demanda, permite a miles de usuarios escuchar sus canciones favoritas, crear playlist personalizadas y ayudales a descubrir nuevas canciones.
 
 ## Desktop
+Resultado
 
 #### Vista de Home
 
