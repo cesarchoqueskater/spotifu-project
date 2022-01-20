@@ -47,9 +47,10 @@
     align-items: center;
 }
 
-.playlistList-myplayList-title-detail {
+
+/* .playlistList-myplayList-title-detail {
     font: var(--small);
-}
+} */
 
 .playlistList-myplayList-title-detail p {
     color: var(--white);
@@ -68,4 +69,5 @@
     align-items: center;
     margin-block-end: 1.375rem;
     gap: 1.25rem;
+    font: var(--small);
 }

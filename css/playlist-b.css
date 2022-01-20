@@ -16,12 +16,15 @@
 
 .playlistB-details {
     display: flex;
+    flex: 1;
+    justify-content: space-between;
     padding: 1rem;
     gap: .5rem;
     align-items: center;
 }
 
 .playlistB-cover img {
+    object-fit: cover;
     vertical-align: middle;
     inline-size: 4.75rem;
     block-size: 4.75rem;
