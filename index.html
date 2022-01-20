@@ -67,13 +67,13 @@
                         <h2 class="list-title" id="libray-navigation">Tu Biblioteca</h2>
                         <ul class="list-content">
                             <li class="list-item">
-                                <a href="#" class="link">Creada para ti</a>
+                                <a href="#" class="link layoutArtistRoute">Creada para ti</a>
                             </li>
                             <li class="list-item">
-                                <a href="#" class="link">Escuchado recientemente</a>
+                                <a href="#" class="link layoutMyPlayListRoute">Escuchado recientemente</a>
                             </li>
                             <li class="list-item">
-                                <a href="#" class="link">Tus Me Gusta</a>
+                                <a href="#" class="link layoutPlayListRoute">Tus Me Gusta</a>
                             </li>
                         </ul>
                     </nav>
@@ -131,7 +131,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="layout-main" style="display: none;">
+            <div class="layout-main" id="layoutHome">
                 <div class="page">
                     <div class="sticky">
                         <div class="page-block">
@@ -687,7 +687,7 @@
                     </main>
                 </div>
             </div>
-            <div class="layout-main layout-main-artist" style="display: none;">
+            <div class="layout-main layout-main-artist" id="layoutArtist" hidden>
                 <div class="layout-image">
                     <div class="image-background">
                         <div class="artist-background-linear">
@@ -1047,7 +1047,7 @@
                     </div>
                 </div>
             </div>
-            <div class="layout-main" style="display: none;">
+            <div class="layout-main" id="layoutMyPlayList" hidden>
                 <div class="page">
                     <div class="sticky">
                         <div class="page-block">
@@ -1077,7 +1077,7 @@
                     <div class="cardimageArtist-content">
                         <img class="cardimageArtist-img" src="./images/anime-hits.png" width="312" height="183" alt="">
                         <div class="cardimageArtist-information">
-                            <h3 class="cardImageArtist-title">My PlayList</h3>
+                            <h3 class="cardImageArtist-title">Escuchadas recientemente</h3>
                             <div class="cardImageArtist-details">
                                 <p>Mi musica para ustedes</p>
                                 <small>2,611,830 SEGUIDORES</small>
@@ -1859,7 +1859,7 @@
                     </main>
                 </div>
             </div>
-            <div class="layout-main">
+            <div class="layout-main" id="layoutPlayList" hidden>
                 <div class="page">
                     <div class="sticky">
                         <div class="page-block">
@@ -2524,6 +2524,7 @@
             </footer>
         </div>
     </div>
+    <script type="module" src="./javascript/index.js"></script>
 </body>
 
 </html>
